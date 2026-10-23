@@ -1,0 +1,411 @@
+<!doctype html>
+<html lang="ko">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Document</title>
+
+      <!-- sweetalert 추가-->
+      <!-- <script src="js/sweetalert-dev.js"></script>
+        <link rel="stylesheet" href="css/sweetalert.css" /> -->
+
+      <!-- font -->
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet" />
+      <link
+         rel="stylesheet"
+         as="style"
+         crossorigin
+         href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-dynamic-subset.min.css"
+      />
+
+      <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+      <link rel="stylesheet" href="css/aos.css" />
+      <link rel="stylesheet" href="css/reset.css" />
+      <link rel="stylesheet" href="css/main.css" />
+
+      <script type="text/javascript" src="https://oapi.map.naver.com/openapi/v3/maps.js?ncpKeyId=4go5xhwajg"></script>
+      <script src="js/jquery-1.8.3.min.js"></script>
+      <!-- <script src="js/headroom.js"></script> -->
+      <script src="js/aos.js"></script>
+      <script src="js/gsap.min.js"></script>
+      <script src="js/ScrollTrigger.min.js"></script>
+      <script src="js/swiper-bundle.min.js"></script>
+   </head>
+
+   <body>
+      <section class="main01">
+         <div class="main01__inner main-common-inner">
+            <div class="main01-text01">
+               <img src="./img/main01_01.png" alt="" />
+               <h5>깊어진 진료를, 새로운 공간에서</h5>
+               <p>
+                  아름다움을 완성하는 감각과 정교한 기술, <br class="mo" />
+                  그리고 그 모든 과정에서 놓치지 않아야 할 <br class="mo" />
+                  치아와 잇몸의 본질.
+                  <br /><br class="mo" />
+                  <b>
+                     아테치과는 이를 바탕으로 <br class="mo" />
+                     치료 그 이상의 가치를 전하며, <br class="mo" />
+                     삶의 질을 한층 높이는 경험을 선사합니다.
+                  </b>
+               </p>
+            </div>
+            <div class="main01-text02">
+               <h5>개원</h5>
+               <h6>2026. 12. 01</h6>
+               <p>더 나은 모습으로 찾아뵙겠습니다.</p>
+            </div>
+         </div>
+      </section>
+
+      <section class="main02">
+         <div class="main02__inner main-common-inner">
+            <ul class="main02-list">
+               <li>
+                  <h5>
+                     Art
+                     <span> 심미 · 예술 </span>
+                  </h5>
+                  <p>
+                     자연치아가 가진 본연의 아름다움을 <br />
+                     이해하는 것에서 시작합니다.
+                  </p>
+               </li>
+
+               <li>
+                  <h5>
+                     Technique
+                     <span> 재건 · 술기 </span>
+                  </h5>
+                  <p>
+                     정확한 진단과 치밀한 계획, <br />
+                     정교한 술기로 아름다움을 구현하고 회복합니다.
+                  </p>
+               </li>
+
+               <li>
+                  <h5>
+                     Essential
+                     <span>보존 · 본질 </span>
+                  </h5>
+                  <p>
+                     자연치아의 가치를 이해하고 <br />
+                     지킬 수 있는 것은 최대한 지킵니다.
+                  </p>
+               </li>
+            </ul>
+         </div>
+      </section>
+
+      <section class="main03">
+         <div class="main03__bg">
+            <div class="main03__inner main-common-inner">
+               <div class="main03__title">
+                  <h6>Doctors</h6>
+                  <div class="main03__img-box mo">
+                     <img src="./img/main03_02.png" alt="" />
+                  </div>
+                  <h5>
+                     <img src="./img/main03_01.png" alt="" />
+                     <span>대표원장</span>
+                     권 낙 현
+                  </h5>
+
+                  <p>
+                     통합치의학과 전문의<br />
+                     서울대학교 치의학대학원 졸업<br />
+                     서울대학교 치의학 석사<br />
+                     대한심미치과학회 이사<br />
+                     ATC 임플란트 연수회 임상지도의<br />
+                     ATC 심미보철 연수회 임상지도의<br />
+                     ATC 연조직 연수회 임상지도의
+                  </p>
+               </div>
+
+               <div class="main03-list-wrap">
+                  <svg
+                     class="mo main03-list-icon"
+                     xmlns="http://www.w3.org/2000/svg"
+                     width="167"
+                     height="226"
+                     viewBox="0 0 167 226"
+                     fill="none"
+                  >
+                     <path
+                        d="M251.843 83.8724H235.125C222.243 35.6387 178.174 0 125.925 0C73.6758 0 29.5998 35.6387 16.725 83.8724H0V90.2464H15.2111C13.7046 97.5953 12.9113 105.199 12.9113 112.984C12.9113 175.283 63.6102 225.962 125.925 225.962C188.24 225.962 238.931 175.276 238.931 112.984C238.931 105.199 238.138 97.5953 236.631 90.2464H251.843V83.8724ZM125.925 6.37393C174.63 6.37393 215.816 39.1895 228.516 83.8724H133.072C131.842 81.1366 129.105 79.2157 125.925 79.2157C122.744 79.2157 120.001 81.1366 118.771 83.8724H23.3262C36.0264 39.1895 77.2129 6.37393 125.925 6.37393ZM21.7323 90.2464H118.749C119.535 92.0145 120.961 93.4333 122.73 94.2191V167.752H34.4689C24.8327 151.737 19.2868 132.994 19.2868 112.984C19.2868 105.184 20.1384 97.5807 21.7323 90.2464ZM38.6174 174.126H122.737V219.537C87.9844 218.511 57.3584 200.786 38.6174 174.126ZM232.556 112.977C232.556 170.692 186.435 217.841 129.105 219.529V174.119H175.976V167.745H129.105V94.2119C130.874 93.426 132.293 92.0072 133.087 90.2391H230.11C231.711 97.5662 232.556 105.17 232.556 112.977Z"
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        fill="white"
+                        fill-opacity="0.04"
+                     />
+                  </svg>
+                  <ul class="main03-list">
+                     <li>
+                        <h5>
+                           <span>보존과 원장</span>
+                           김 동 원
+                        </h5>
+
+                        <ul class="main03-list__depth02">
+                           <li>
+                              <p>- 치과보존과, 통합치의학과 전문의</p>
+                           </li>
+                           <li>
+                              <p>- 서울대학교 치의학대학원 졸업</p>
+                           </li>
+                           <li>
+                              <p>- 서울대학교 치과보존학 박사</p>
+                           </li>
+                           <li>
+                              <p>- 서울대학교 치과보존과 외래교수</p>
+                           </li>
+                        </ul>
+                     </li>
+
+                     <li>
+                        <h5>
+                           <span>심미치료 원장</span>
+                           박 다 현
+                        </h5>
+
+                        <ul class="main03-list__depth02">
+                           <li>
+                              <p>- 연세대학교 치과대학 졸업</p>
+                           </li>
+                           <li>
+                              <p>- 연세대학교 신촌세브란스병원 수련의</p>
+                           </li>
+                           <li>
+                              <p>- 대한심미치과학회 정회원</p>
+                           </li>
+                           <li>
+                              <p>- 대한구강악안면 임플란트학회 회원</p>
+                           </li>
+                        </ul>
+                     </li>
+
+                     <li>
+                        <h5>
+                           <span>보철과 원장</span>
+                           곽 혜 인
+                        </h5>
+
+                        <ul class="main03-list__depth02">
+                           <li>
+                              <p>- 치과보철과 전문의</p>
+                           </li>
+                           <li>
+                              <p>- 서울대학교 치의학대학원 졸업</p>
+                           </li>
+                           <li>
+                              <p>- 분당서울대학교병원 치과보철과 레지던트 수료</p>
+                           </li>
+                           <li>
+                              <p>- 대한보철학회 정회원</p>
+                           </li>
+                        </ul>
+                     </li>
+
+                     <li>
+                        <h5><span>교정과 원장 </span>조 신 영</h5>
+
+                        <ul class="main03-list__depth02">
+                           <li>
+                              <p>- 치과교정과 전문의</p>
+                           </li>
+                           <li>
+                              <p>- 연세대학교 치과대학 졸업</p>
+                           </li>
+                           <li>
+                              <p>- 연세대학교 치의학 석사(교정학)</p>
+                           </li>
+                           <li>
+                              <p>- 연세대학교 강남세브란스병원 교정과 레지던트 수료</p>
+                           </li>
+                        </ul>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <div class="main03__img-box pc">
+               <img src="./img/main03_02.png" alt="" />
+            </div>
+         </div>
+      </section>
+
+      <section class="main04">
+         <svg
+            class="mo main04-stroke-top"
+            xmlns="http://www.w3.org/2000/svg"
+            width="700"
+            height="1"
+            viewBox="0 0 700 1"
+            fill="none"
+         >
+            <path d="M0 0.5H700" stroke="url(#paint0_linear_879_5329)" />
+            <defs>
+               <linearGradient
+                  id="paint0_linear_879_5329"
+                  x1="1.59991e-08"
+                  y1="-52"
+                  x2="700"
+                  y2="-52"
+                  gradientUnits="userSpaceOnUse"
+               >
+                  <stop stop-color="#999999" stop-opacity="0" />
+                  <stop offset="0.503977" stop-color="white" />
+                  <stop offset="1" stop-color="#999999" stop-opacity="0" />
+               </linearGradient>
+            </defs>
+         </svg>
+         <div class="main04__inner main-common-inner">
+            <div class="main04__left">
+               <h5>Message</h5>
+               <h6>
+                  자연치아의 아름다움을 지키고, <br />
+                  <b>잃어버린 본래의 모습을 되찾는 것.</b>
+               </h6>
+               <p>
+                  건강한 치아와 잇몸에서 시작되는 <br class="mo" />
+                  자연스러운 아름다움. <br />
+                  아테치과가 추구하는 치과 치료의 본질입니다.<br /><br />
+
+                  보존할 수 있는 자연치아는 최대한 보존하고,<br />
+                  이미 잃어버린 치아와 잇몸은 <br class="mo" />
+                  본래의 모습에 가깝게 회복시키는 것.<br />
+                  단순히 치아의 모양과 색을 아름답게 만드는 것을 넘어,<br />
+                  건강한 잇몸과 조화로운 치아, <br class="mo" />
+                  얼굴 전체의 균형까지 살피는 것.<br />
+                  아테치과가 생각하는 좋은 치료의 기준입니다.<br /><br />
+
+                  이를 실현하기 위해서는 정확한 진단과 치밀한 치료계획,<br />
+                  그리고 계획한 결과를 실제로 구현할 수 있는 <br class="mo" />
+                  높은 수준의 술기가 필요합니다.<br />
+                  끊임없이 배우고 연구하며 <br class="mo" />
+                  기술을 다듬는 이유도 여기에 있습니다.<br />
+                  더 많이 치료하기 위해서가 아니라,<br />
+                  환자분의 소중한 것을 더 오래 지키고,<br />
+                  잃어버린 것을 더 온전하게 되찾아 드리기 위해서입니다.<br /><br />
+
+                  아테치과는 건강한 치아와 잇몸에서 시작되는 <br class="mo" />
+                  자연스러운 아름다움을 추구합니다.<br />
+                  치료를 마친 순간의 아름다움뿐 아니라,<br />
+                  시간이 흐른 뒤에도 건강하고 편안하게 웃을 수 있도록.<br />
+                  그 본질에 충실한 진료를 이어가겠습니다.
+               </p>
+            </div>
+            <div class="main04__right">
+               <h6><span>대표원장</span> 권 낙 현</h6>
+               <img src="./img/main04_01.png" alt="" />
+            </div>
+         </div>
+         <svg
+            class="mo main04-stroke-btm"
+            xmlns="http://www.w3.org/2000/svg"
+            width="700"
+            height="1"
+            viewBox="0 0 700 1"
+            fill="none"
+         >
+            <path d="M0 0.5H700" stroke="url(#paint0_linear_879_5329)" />
+            <defs>
+               <linearGradient
+                  id="paint0_linear_879_5329"
+                  x1="1.59991e-08"
+                  y1="-52"
+                  x2="700"
+                  y2="-52"
+                  gradientUnits="userSpaceOnUse"
+               >
+                  <stop stop-color="#999999" stop-opacity="0" />
+                  <stop offset="0.503977" stop-color="white" />
+                  <stop offset="1" stop-color="#999999" stop-opacity="0" />
+               </linearGradient>
+            </defs>
+         </svg>
+      </section>
+
+      <section class="main05">
+         <div class="main05__inner main-common-inner">
+            <div class="main05__left">
+               <div class="main05__text">
+                  <h5>오시는 길</h5>
+                  <p>
+                     서울시 서초구 강남대로 363, 2층 <br />
+                     강남역 5번 출구 바로 앞 363강남타워
+                  </p>
+                  <span> 2F, 363 Gangnam-daero, Seocho-gu, Seoul, Republic of Korea </span>
+               </div>
+
+               <div class="main05__text">
+                  <h5>연락처</h5>
+                  <p>
+                     02) 6084-0363 <br />
+                     atedentalclinic@gmail.com
+                  </p>
+               </div>
+
+               <div class="main05__text">
+                  <h5>진료시간</h5>
+                  <ul class="main05-list">
+                     <li>
+                        <span>월 · 목</span>
+                        <p>10:00 - 21:00</p>
+                     </li>
+                     <li>
+                        <span>화 · 수 · 금 </span>
+                        <p>10:00 - 19:00</p>
+                     </li>
+                     <li>
+                        <span>토 요 일 </span>
+                        <p>10:00 - 17:00</p>
+                     </li>
+                     <li>
+                        <span style="letter-spacing: 0">점심시간(평일) </span>
+                        <p>13:30 - 14:30</p>
+                     </li>
+                     <li>
+                        <b> 공휴일 · 일요일 휴진 </b>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+
+            <div class="main05__img-box">
+               <img class="pc" src="./img/main05_01.png" alt="" />
+               <img class="mo" src="./img/main05_01_mo.png" alt="" />
+            </div>
+         </div>
+      </section>
+
+      <footer class="footer">
+         <div class="footer__inner">
+            <ul class="footer-list">
+               <li>
+                  <a href="/"> 아테치과의원 </a>
+               </li>
+               <li>
+                  <b> 사업자등록번호 </b>
+                  <p>833-04-03948</p>
+               </li>
+               <li>
+                  <b>대표원장</b>
+                  <p>권낙현</p>
+               </li>
+            </ul>
+            <div class="footer__img-wrap">
+               <span>
+                  <img src="img/footer_01.png" alt="" />
+               </span>
+               <span>
+                  <img src="img/footer_02.png" alt="" />
+               </span>
+            </div>
+         </div>
+      </footer>
+
+      <script src="./js/main.js"></script>
+   </body>
+</html>

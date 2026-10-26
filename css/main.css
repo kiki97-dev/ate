@@ -220,7 +220,7 @@ body {
    font-family: Pretendard;
    font-size: 18px;
    font-style: normal;
-   font-weight: 400;
+   font-weight: 300;
    line-height: 140%; /* 25.2px */
    letter-spacing: -0.54px;
 }
@@ -230,7 +230,7 @@ body {
    font-family: Pretendard;
    font-size: 18px;
    font-style: normal;
-   font-weight: 400;
+   font-weight: 300;
    line-height: 180%; /* 32.4px */
    letter-spacing: -0.54px;
 }
@@ -312,6 +312,8 @@ body {
 
    .main02-list {
       flex-wrap: wrap;
+      max-width: 500px;
+      margin: 0px auto;
    }
 
    .main02-list > li {
@@ -349,6 +351,7 @@ body {
 
    .main02-list {
       flex-wrap: wrap;
+      max-width: 300px;
    }
 
    .main02-list > li {
@@ -358,14 +361,14 @@ body {
    }
 
    .main02-list > li > h5 {
-      font-size: 36px;
+      font-size: 30px;
    }
 
    .main02-list > li > h5 > span {
-      font-size: 16px;
+      font-size: 15px;
    }
    .main02-list > li > p {
-      font-size: 16px;
+      font-size: 15px;
    }
    .main02-list > li:nth-of-type(1) {
       margin-right: 0px;
@@ -386,7 +389,7 @@ body {
 }
 
 .main03__bg {
-   padding: 180px 0px;
+   padding: 100px 0px 180px;
    background: url(../img/main03_bg.png) no-repeat center/cover;
 
    position: relative;
@@ -399,7 +402,7 @@ body {
 .main03__img-box {
    position: absolute;
    bottom: 0;
-   right: calc(50% - 200px);
+   right: calc(50% - 220px);
    transform: translateX(50%);
 
    display: block;

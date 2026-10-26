@@ -1347,7 +1347,7 @@ body {
 
 /* 푸터 */
 .footer {
-   padding: 40px 0px;
+   padding: 40px 0px 80px;
    background: #191919;
    overflow: hidden;
 }
@@ -1411,7 +1411,7 @@ body {
 
 @media (max-width: 480px) {
    .footer {
-      padding: 60px 0px;
+      padding: 60px 0px 80px;
    }
 
    .footer__inner {
